@@ -1,0 +1,10 @@
+# 使用git工具托管代码至github上
+* 首先在github上创建仓库，命名，命名规则不要用中文
+* 在本地电脑上，使用git bash，
+> git clone url（创建仓库的链接）
+  git init
+  git add .
+  git commit -am "注释"
+  git remote add origin git@github.com:honghul/mingmin.git
+  git push origin master
+  
